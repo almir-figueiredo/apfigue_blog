@@ -1,20 +1,21 @@
 "use strict"
 
 module.exports = {
-  url: "https://developer-diary.netlify.com",
-  title: "Developer Diary",
-  tagline: "Autodidact developer and sometimes hoop-jumper",
-  copyright: "© 2019 willjw3, All rights reserved",
+  url: "https://apfigue.dev",
+  title: 'Memories of Development',
+  tagline: 'Father, biologist, public server and Full Stack Developer',
+  copyright: "© 2019 apfigue, All rights reserved",
   author: {
-    name: "WILL JAY",
-    bio: "Self-taught web developer and whisky aficionado",
+    name: "ALMIR PICANÇO DE FIGUEIREDO",
+    bio: "A web developer in development",
     contacts: {
-      linkedin: "https://www.linkedin.com/in/will-ward-65234a170/",
-      github: "https://github.com/willjw3",
+      linkedin: "https://www.linkedin.com/in/almir-figueiredo-b23b53b9/",
+      github: "https://github.com/almir-figueiredo",
       stackoverflow:
-        "https://stackoverflow.com/users/10262432/will-ward?tab=profile",
-      freecodecamp: "https://www.freecodecamp.org/willjw3",
-      twitter: "https://twitter.com/willjw3",
+        "https://pt.stackoverflow.com/users/170373/almir-picanco-de-figueiredo",
+      freecodecamp: "https://www.freecodecamp.org/almir-figueiredo",
+      twitter: "https://twitter.com/AlmirPicanco",
+      glitch: "https://glitch.com/@almir-figueiredo",
     },
   },
   labels: [
@@ -61,6 +62,27 @@ module.exports = {
       color: "deepskyblue",
     },
     {
+      tag: "html",
+      tech: "HTML",
+      name: "FaHtml5",
+      size: 20,
+      color: "darkorange",
+    },
+    {
+      tag: "mongodb",
+      tech: "MongoDB",
+      name: "DiMongodb",
+      size: 20,
+      color: "green",
+    },
+    {
+      tag: "vscode",
+      tech: "VS Code",
+      name: "DiVisualstudio",
+      size: 20,
+      color: "deepskyblue",
+    }
+    /* {
       tag: "ruby",
       tech: "Ruby",
       name: "DiRuby",
@@ -80,34 +102,13 @@ module.exports = {
       name: "DiAngularSimple",
       size: 20,
       color: "red",
-    },
-    {
-      tag: "html",
-      tech: "HTML",
-      name: "FaHtml5",
-      size: 20,
-      color: "darkorange",
-    },
-    {
+    }, */
+    /* {
       tag: "php",
       tech: "php",
       name: "DiPhp",
       size: 20,
       color: "violet",
-    },
-    {
-      tag: "mongodb",
-      tech: "MongoDB",
-      name: "DiMongodb",
-      size: 20,
-      color: "green",
-    },
-    {
-      tag: "vscode",
-      tech: "VS Code",
-      name: "DiVisualstudio",
-      size: 20,
-      color: "deepskyblue",
-    },
+    }, */
   ],
 }

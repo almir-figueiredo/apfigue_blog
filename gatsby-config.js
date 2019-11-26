@@ -7,7 +7,7 @@ module.exports = {
     url: siteConfig.url,
     title: siteConfig.title,
     tagline: siteConfig.tagline,
-    description: `A blog template for web developers that's ready to go out of the box. Feel free to modify it to your liking.`,
+    description: `Memória de como me meti nesse mundo DEV.`,
     author: siteConfig.author.name,
     contacts: {
       linkedin: siteConfig.author.contacts.linkedin,
@@ -15,6 +15,7 @@ module.exports = {
       stackoverflow: siteConfig.author.contacts.stackoverflow,
       freecodecamp: siteConfig.author.contacts.freecodecamp,
       twitter: siteConfig.author.contacts.twitter,
+      glitch: siteConfig.author.contacts.glitch,
     },
     labels: siteConfig.labels,
   },

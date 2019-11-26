@@ -4,7 +4,8 @@ import {
     FaGithubSquare,
     FaStackOverflow,
     FaFreeCodeCamp,
-    FaTwitterSquare
+    FaTwitterSquare,
+    FaGlasses,
 } from "react-icons/fa"
 
 import "../layout.css"
@@ -40,6 +41,12 @@ const MobileSocialLinks = ({ contacts }) => {
                 href={contacts.twitter}>
                 <span title="Twitter">
                     <FaTwitterSquare size={26} style={{ color: "info" }} />
+                </span>
+            </a>
+            <a className="text-info"
+                href={contacts.glitch}>
+                <span title="Glitch">
+                    <FaGlasses size={26} style={{ color: "info" }} />
                 </span>
             </a>
         </div>
